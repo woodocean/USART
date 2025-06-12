@@ -1,4 +1,4 @@
-Component: Arm Compiler for Embedded 6.21 Tool: armlink [5ec1fa00]
+Component: Arm Compiler for Embedded 6.22 Tool: armlink [5ee90200]
 
 ==============================================================================
 
@@ -856,7 +856,7 @@ Removing Unused input sections from the image.
     Removing my_usart.o(.ARM.exidx.text.itoa), (8 bytes).
     Removing my_usart.o(.text.v_Draw_Usart_addpoint), (280 bytes).
     Removing my_usart.o(.ARM.exidx.text.v_Draw_Usart_addpoint), (8 bytes).
-    Removing my_usart.o(.text.v_Draw_LINES), (368 bytes).
+    Removing my_usart.o(.text.v_Draw_LINES), (376 bytes).
     Removing my_usart.o(.ARM.exidx.text.v_Draw_LINES), (8 bytes).
     Removing my_usart.o(.ARM.exidx.text.v_Draw_Curve), (8 bytes).
     Removing my_usart.o(.ARM.exidx.text.v_Send_float), (8 bytes).
@@ -890,9 +890,9 @@ Removing Unused input sections from the image.
     Removing dl_aes.o(.ARM.exidx.text.DL_AES_xorData), (8 bytes).
     Removing dl_aes.o(.text.DL_AES_xorDataAligned), (36 bytes).
     Removing dl_aes.o(.ARM.exidx.text.DL_AES_xorDataAligned), (8 bytes).
-    Removing dl_aes.o(.text.DL_AES_saveConfiguration), (60 bytes).
+    Removing dl_aes.o(.text.DL_AES_saveConfiguration), (80 bytes).
     Removing dl_aes.o(.ARM.exidx.text.DL_AES_saveConfiguration), (8 bytes).
-    Removing dl_aes.o(.text.DL_AES_restoreConfiguration), (60 bytes).
+    Removing dl_aes.o(.text.DL_AES_restoreConfiguration), (84 bytes).
     Removing dl_aes.o(.ARM.exidx.text.DL_AES_restoreConfiguration), (8 bytes).
     Removing dl_aesadv.o(.text), (0 bytes).
     Removing dl_common.o(.text), (0 bytes).
@@ -902,13 +902,13 @@ Removing Unused input sections from the image.
     Removing dl_crc.o(.ARM.exidx.text.DL_CRC_calculateBlock32), (8 bytes).
     Removing dl_crc.o(.text.DL_CRC_calculateMemoryRange32), (52 bytes).
     Removing dl_crc.o(.ARM.exidx.text.DL_CRC_calculateMemoryRange32), (8 bytes).
-    Removing dl_crc.o(.text.DL_CRC_calculateBlock16), (152 bytes).
+    Removing dl_crc.o(.text.DL_CRC_calculateBlock16), (156 bytes).
     Removing dl_crc.o(.ARM.exidx.text.DL_CRC_calculateBlock16), (8 bytes).
     Removing dl_crc.o(.text.DL_CRC_calculateMemoryRange16), (104 bytes).
     Removing dl_crc.o(.ARM.exidx.text.DL_CRC_calculateMemoryRange16), (8 bytes).
     Removing dl_crcp.o(.text), (0 bytes).
     Removing dl_dac12.o(.text), (0 bytes).
-    Removing dl_dac12.o(.text.DL_DAC12_init), (136 bytes).
+    Removing dl_dac12.o(.text.DL_DAC12_init), (140 bytes).
     Removing dl_dac12.o(.ARM.exidx.text.DL_DAC12_init), (8 bytes).
     Removing dl_dac12.o(.text.DL_DAC12_outputBlocking8), (48 bytes).
     Removing dl_dac12.o(.ARM.exidx.text.DL_DAC12_outputBlocking8), (8 bytes).
@@ -924,155 +924,155 @@ Removing Unused input sections from the image.
     Removing dl_dma.o(.text.DL_DMA_initChannel), (68 bytes).
     Removing dl_dma.o(.ARM.exidx.text.DL_DMA_initChannel), (8 bytes).
     Removing dl_flashctl.o(.text), (0 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseMemory), (22 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseMemory), (26 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_eraseMemory), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_eraseMemoryFromRAM), (24 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_eraseMemoryFromRAM), (8 bytes).
     Removing dl_flashctl.o(.ramfunc), (116 bytes).
     Removing dl_flashctl.o(.ARM.exidx.ramfunc), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_massErase), (264 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_massErase), (280 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_massErase), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectMainMemory), (20 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_unprotectMainMemory), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_protectNonMainMemory), (16 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_protectNonMainMemory), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseDataBank), (192 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseDataBank), (200 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_eraseDataBank), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_massEraseFromRAM), (196 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_massEraseFromRAM), (216 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_massEraseFromRAM), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseDataBankFromRAM), (148 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_eraseDataBankFromRAM), (156 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_eraseDataBankFromRAM), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_massEraseMultiBank), (444 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_massEraseMultiBank), (456 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_massEraseMultiBank), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_factoryReset), (92 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_factoryReset), (100 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_factoryReset), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectNonMainMemory), (12 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_unprotectNonMainMemory), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_factoryResetFromRAM), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_factoryResetFromRAM), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_factoryResetMultiBank), (92 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_factoryResetMultiBank), (100 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_factoryResetMultiBank), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8), (24 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8), (30 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory8), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM8), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16), (26 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16), (32 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory16), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM16), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32), (26 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32), (32 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory32), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM32), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64), (30 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory64), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64), (36 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64), (44 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM64), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8WithECCGenerated), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8WithECCGenerated), (34 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory8WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM8WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16WithECCGenerated), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16WithECCGenerated), (34 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory16WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM16WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32WithECCGenerated), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32WithECCGenerated), (34 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory32WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM32WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64WithECCGenerated), (36 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64WithECCGenerated), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64WithECCGenerated), (48 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory8WithECCManual), (56 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory8WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM8WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM8WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory16WithECCManual), (56 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory16WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM16WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM16WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory32WithECCManual), (56 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory32WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM32WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM32WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemory64WithECCManual), (60 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemory64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64WithECCManual), (48 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM64WithECCManual), (56 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking64WithECCGenerated), (172 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking64WithECCGenerated), (188 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryBlocking64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectSector), (224 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectSector), (204 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_unprotectSector), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCGenerated), (140 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCGenerated), (152 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking64WithECCManual), (204 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking64WithECCManual), (220 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryBlocking64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCManual), (164 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCManual), (176 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryBlockingFromRAM64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking), (204 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryBlocking), (212 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryBlocking), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM), (120 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_programMemoryFromRAM), (136 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_programMemoryFromRAM), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectDataMemory), (20 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_unprotectDataMemory), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_protectMainMemory), (20 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_protectMainMemory), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectAllMemory), (24 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_unprotectAllMemory), (32 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_unprotectAllMemory), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_protectAllMemory), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_protectAllMemory), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_protectAllMemory), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_protectSector), (240 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_protectSector), (252 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_protectSector), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8), (26 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8), (32 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify8), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16), (26 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16), (32 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify16), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32), (34 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify32), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64), (38 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify64), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM8), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16), (28 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM16), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM32), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64), (36 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64), (44 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM64), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM8WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM16WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32WithECCGenerated), (32 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32WithECCGenerated), (40 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM32WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64WithECCGenerated), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64WithECCGenerated), (48 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM8WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM8WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM16WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM16WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32WithECCManual), (44 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM32WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM32WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64WithECCManual), (48 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerifyFromRAM64WithECCManual), (56 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerifyFromRAM64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8WithECCGenerated), (30 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8WithECCGenerated), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify8WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16WithECCGenerated), (30 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16WithECCGenerated), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify16WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32WithECCGenerated), (30 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32WithECCGenerated), (36 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify32WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64WithECCGenerated), (36 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64WithECCGenerated), (44 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify64WithECCGenerated), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify8WithECCManual), (48 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify8WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify16WithECCManual), (48 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify16WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32WithECCManual), (40 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify32WithECCManual), (48 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify32WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64WithECCManual), (48 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_readVerify64WithECCManual), (52 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_readVerify64WithECCManual), (8 bytes).
-    Removing dl_flashctl.o(.text.DL_FlashCTL_blankVerify), (20 bytes).
+    Removing dl_flashctl.o(.text.DL_FlashCTL_blankVerify), (24 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_blankVerify), (8 bytes).
     Removing dl_flashctl.o(.text.DL_FlashCTL_blankVerifyFromRAM), (24 bytes).
     Removing dl_flashctl.o(.ARM.exidx.text.DL_FlashCTL_blankVerifyFromRAM), (8 bytes).
@@ -1124,19 +1124,19 @@ Removing Unused input sections from the image.
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_setOpMode), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_getOpMode), (16 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getOpMode), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_init), (216 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_init), (236 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_init), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_config), (212 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_config), (224 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_config), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_eccConfig), (184 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccConfig), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_setBitTime), (216 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_setBitTime), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_msgRAMConfig), (536 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_msgRAMConfig), (560 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_msgRAMConfig), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_setExtIDAndMask), (52 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_setExtIDAndMask), (60 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_setExtIDAndMask), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_writeMsgRam), (264 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_writeMsgRam), (228 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_writeMsgRam), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_TXBufAddReq), (52 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_TXBufAddReq), (8 bytes).
@@ -1144,7 +1144,7 @@ Removing Unused input sections from the image.
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getNewDataStatus), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_clearNewDataStatus), (20 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_clearNewDataStatus), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_readMsgRam), (292 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_readMsgRam), (252 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_readMsgRam), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_readTxEventFIFO), (96 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_readTxEventFIFO), (8 bytes).
@@ -1172,9 +1172,9 @@ Removing Unused input sections from the image.
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_clearIntrStatus), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_getHighPriorityMsgStatus), (44 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getHighPriorityMsgStatus), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_getRxFIFOStatus), (60 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_getRxFIFOStatus), (56 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getRxFIFOStatus), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_writeRxFIFOAck), (64 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_writeRxFIFOAck), (72 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_writeRxFIFOAck), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_getTxFIFOQueStatus), (36 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getTxFIFOQueStatus), (8 bytes).
@@ -1202,19 +1202,19 @@ Removing Unused input sections from the image.
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccGetErrorStatus), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_eccClearErrorStatus), (112 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccClearErrorStatus), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_eccWriteEOI), (36 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_eccWriteEOI), (32 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccWriteEOI), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_eccEnableIntr), (56 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_eccEnableIntr), (46 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccEnableIntr), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_eccGetIntrStatus), (36 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccGetIntrStatus), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_eccClearIntrStatus), (36 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_eccClearIntrStatus), (32 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_eccClearIntrStatus), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_extTSCounterConfig), (24 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_extTSCounterConfig), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_extTSCounterEnable), (28 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_extTSCounterEnable), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_extTSEnableIntr), (28 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_extTSEnableIntr), (24 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_extTSEnableIntr), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_extTSWriteEOI), (20 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_extTSWriteEOI), (8 bytes).
@@ -1254,9 +1254,9 @@ Removing Unused input sections from the image.
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getEndianVal), (8 bytes).
     Removing dl_mcan.o(.text.DL_MCAN_getExtIDANDMask), (16 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_getExtIDANDMask), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_saveConfiguration), (228 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_saveConfiguration), (300 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_saveConfiguration), (8 bytes).
-    Removing dl_mcan.o(.text.DL_MCAN_restoreConfiguration), (276 bytes).
+    Removing dl_mcan.o(.text.DL_MCAN_restoreConfiguration), (348 bytes).
     Removing dl_mcan.o(.ARM.exidx.text.DL_MCAN_restoreConfiguration), (8 bytes).
     Removing dl_mcan.o(.rodata..L__const.DL_MCAN_getDataSize.dataSize), (64 bytes).
     Removing dl_mcan.o(.rodata.cst32), (32 bytes).
@@ -1266,25 +1266,25 @@ Removing Unused input sections from the image.
     Removing dl_opa.o(.text.DL_OPA_decreaseGain), (48 bytes).
     Removing dl_opa.o(.ARM.exidx.text.DL_OPA_decreaseGain), (8 bytes).
     Removing dl_rtc_common.o(.text), (0 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_initCalendar), (144 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_initCalendar), (160 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_initCalendar), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarTime), (124 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarTime), (132 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_getCalendarTime), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_setCalendarAlarm1), (96 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_setCalendarAlarm1), (100 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_setCalendarAlarm1), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarAlarm1), (84 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarAlarm1), (88 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_getCalendarAlarm1), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_enableCalendarAlarm1), (60 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_enableCalendarAlarm1), (68 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_enableCalendarAlarm1), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_disableCalendarAlarm1), (68 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_disableCalendarAlarm1), (76 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_disableCalendarAlarm1), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_setCalendarAlarm2), (96 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_setCalendarAlarm2), (100 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_setCalendarAlarm2), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarAlarm2), (84 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_getCalendarAlarm2), (88 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_getCalendarAlarm2), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_enableCalendarAlarm2), (60 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_enableCalendarAlarm2), (68 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_enableCalendarAlarm2), (8 bytes).
-    Removing dl_rtc_common.o(.text.DL_RTC_Common_disableCalendarAlarm2), (68 bytes).
+    Removing dl_rtc_common.o(.text.DL_RTC_Common_disableCalendarAlarm2), (76 bytes).
     Removing dl_rtc_common.o(.ARM.exidx.text.DL_RTC_Common_disableCalendarAlarm2), (8 bytes).
     Removing dl_spi.o(.text), (0 bytes).
     Removing dl_spi.o(.text.DL_SPI_init), (68 bytes).
@@ -1293,52 +1293,52 @@ Removing Unused input sections from the image.
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_setClockConfig), (8 bytes).
     Removing dl_spi.o(.text.DL_SPI_getClockConfig), (16 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_getClockConfig), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking8), (40 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking8), (48 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataBlocking8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking16), (40 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking16), (48 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataBlocking16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking32), (36 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataBlocking32), (44 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataBlocking32), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking8), (36 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking8), (44 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataBlocking8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking16), (36 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking16), (44 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataBlocking16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking32), (36 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataBlocking32), (44 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataBlocking32), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck8), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck8), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataCheck8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck16), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck16), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataCheck16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck32), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_receiveDataCheck32), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_receiveDataCheck32), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck8), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck8), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataCheck8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck16), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck16), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataCheck16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck32), (28 bytes).
+    Removing dl_spi.o(.text.DL_SPI_transmitDataCheck32), (32 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_transmitDataCheck32), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO8), (116 bytes).
+    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO8), (128 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_drainRXFIFO8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO16), (104 bytes).
+    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO16), (128 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_drainRXFIFO16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO32), (104 bytes).
+    Removing dl_spi.o(.text.DL_SPI_drainRXFIFO32), (128 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_drainRXFIFO32), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO8), (116 bytes).
+    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO8), (128 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_fillTXFIFO8), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO16), (104 bytes).
+    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO16), (124 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_fillTXFIFO16), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_saveConfiguration), (80 bytes).
+    Removing dl_spi.o(.text.DL_SPI_saveConfiguration), (104 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_saveConfiguration), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_restoreConfiguration), (112 bytes).
+    Removing dl_spi.o(.text.DL_SPI_restoreConfiguration), (128 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_restoreConfiguration), (8 bytes).
-    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO32), (104 bytes).
+    Removing dl_spi.o(.text.DL_SPI_fillTXFIFO32), (124 bytes).
     Removing dl_spi.o(.ARM.exidx.text.DL_SPI_fillTXFIFO32), (8 bytes).
     Removing dl_timer.o(.text), (0 bytes).
     Removing dl_timer.o(.text.DL_Timer_setClockConfig), (28 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_setClockConfig), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_getClockConfig), (28 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_getClockConfig), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initTimerMode), (232 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initTimerMode), (240 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initTimerMode), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_setCaptureCompareValue), (16 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_setCaptureCompareValue), (8 bytes).
@@ -1348,13 +1348,13 @@ Removing Unused input sections from the image.
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initCaptureMode), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_setCaptureCompareInput), (26 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_setCaptureCompareInput), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initCaptureTriggerMode), (112 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initCaptureTriggerMode), (116 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initCaptureTriggerMode), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initCaptureCombinedMode), (228 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initCaptureCombinedMode), (224 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initCaptureCombinedMode), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initCompareMode), (172 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initCompareMode), (160 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initCompareMode), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initCompareTriggerMode), (96 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initCompareTriggerMode), (108 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initCompareTriggerMode), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_getCaptureCompareValue), (16 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_getCaptureCompareValue), (8 bytes).
@@ -1406,21 +1406,21 @@ Removing Unused input sections from the image.
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_disableCaptureCompareInputFilter), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_isCaptureCompareInputFilterEnabled), (20 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_isCaptureCompareInputFilterEnabled), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_saveConfiguration), (232 bytes).
+    Removing dl_timer.o(.text.DL_Timer_saveConfiguration), (304 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_saveConfiguration), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_restoreConfiguration), (244 bytes).
+    Removing dl_timer.o(.text.DL_Timer_restoreConfiguration), (308 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_restoreConfiguration), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_initFourCCPWMMode), (264 bytes).
+    Removing dl_timer.o(.text.DL_Timer_initFourCCPWMMode), (292 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_initFourCCPWMMode), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_setFaultSourceConfig), (44 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_setFaultSourceConfig), (8 bytes).
     Removing dl_timer.o(.text.DL_Timer_getFaultSourceConfig), (32 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_getFaultSourceConfig), (8 bytes).
-    Removing dl_timer.o(.text.DL_TimerA_saveConfiguration), (264 bytes).
+    Removing dl_timer.o(.text.DL_TimerA_saveConfiguration), (344 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_TimerA_saveConfiguration), (8 bytes).
-    Removing dl_timer.o(.text.DL_TimerA_restoreConfiguration), (276 bytes).
+    Removing dl_timer.o(.text.DL_TimerA_restoreConfiguration), (360 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_TimerA_restoreConfiguration), (8 bytes).
-    Removing dl_timer.o(.text.DL_Timer_configQEIHallInputMode), (36 bytes).
+    Removing dl_timer.o(.text.DL_Timer_configQEIHallInputMode), (40 bytes).
     Removing dl_timer.o(.ARM.exidx.text.DL_Timer_configQEIHallInputMode), (8 bytes).
     Removing dl_timer.o(.rodata..Lswitch.table.DL_Timer_initCompareMode), (12 bytes).
     Removing dl_trng.o(.text), (0 bytes).
@@ -1451,13 +1451,13 @@ Removing Unused input sections from the image.
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_drainRXFIFO), (8 bytes).
     Removing dl_uart.o(.text.DL_UART_fillTXFIFO), (116 bytes).
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_fillTXFIFO), (8 bytes).
-    Removing dl_uart.o(.text.DL_UART_Main_saveConfiguration), (88 bytes).
+    Removing dl_uart.o(.text.DL_UART_Main_saveConfiguration), (116 bytes).
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_Main_saveConfiguration), (8 bytes).
-    Removing dl_uart.o(.text.DL_UART_Main_restoreConfiguration), (120 bytes).
+    Removing dl_uart.o(.text.DL_UART_Main_restoreConfiguration), (136 bytes).
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_Main_restoreConfiguration), (8 bytes).
-    Removing dl_uart.o(.text.DL_UART_Extend_saveConfiguration), (104 bytes).
+    Removing dl_uart.o(.text.DL_UART_Extend_saveConfiguration), (144 bytes).
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_Extend_saveConfiguration), (8 bytes).
-    Removing dl_uart.o(.text.DL_UART_Extend_restoreConfiguration), (132 bytes).
+    Removing dl_uart.o(.text.DL_UART_Extend_restoreConfiguration), (168 bytes).
     Removing dl_uart.o(.ARM.exidx.text.DL_UART_Extend_restoreConfiguration), (8 bytes).
     Removing dl_vref.o(.text), (0 bytes).
     Removing dl_vref.o(.text.DL_VREF_configReference), (32 bytes).
@@ -1467,7 +1467,7 @@ Removing Unused input sections from the image.
     Removing dl_vref.o(.text.DL_VREF_getClockConfig), (16 bytes).
     Removing dl_vref.o(.ARM.exidx.text.DL_VREF_getClockConfig), (8 bytes).
 
-643 unused section(s) (total 23057 bytes) removed from the image.
+643 unused section(s) (total 24543 bytes) removed from the image.
 
 ==============================================================================
 
@@ -1770,45 +1770,45 @@ Image Symbol Table
     [Anonymous Symbol]                       0x000015f8   Section        0  board.o(.text.uart1_send_string)
     __arm_cp.6_0                             0x0000162c   Number         4  board.o(.text.uart1_send_string)
     [Anonymous Symbol]                       0x00001630   Section        0  my_usart.o(.text.v_Draw_Curve)
-    __arm_cp.3_0                             0x000018e4   Number         4  my_usart.o(.text.v_Draw_Curve)
-    __arm_cp.3_1                             0x000018e8   Number         4  my_usart.o(.text.v_Draw_Curve)
-    [Anonymous Symbol]                       0x000018ec   Section        0  my_usart.o(.text.v_Send_float)
-    __arm_cp.4_0                             0x00001b30   Number         4  my_usart.o(.text.v_Send_float)
-    __arm_cp.4_1                             0x00001b34   Number         4  my_usart.o(.text.v_Send_float)
-    __arm_cp.4_4                             0x00001b44   Number         4  my_usart.o(.text.v_Send_float)
-    .text_divfast                            0x00001b48   Section      502  aeabi_sdivfast.o(.text_divfast)
-    i.__ARM_common_ll_muluu                  0x00001d3e   Section        0  rred.o(i.__ARM_common_ll_muluu)
-    i.__ARM_fpclassify                       0x00001d70   Section        0  fpclassify.o(i.__ARM_fpclassify)
-    i.__ieee754_rem_pio2                     0x00001d9c   Section        0  rred.o(i.__ieee754_rem_pio2)
-    i.__kernel_cos                           0x00002138   Section        0  cos_i.o(i.__kernel_cos)
-    i.__kernel_poly                          0x0000222c   Section        0  poly.o(i.__kernel_poly)
-    i.__kernel_sin                           0x000022d8   Section        0  sin_i.o(i.__kernel_sin)
-    i.__mathlib_dbl_infnan                   0x000023c4   Section        0  dunder.o(i.__mathlib_dbl_infnan)
-    i.__mathlib_dbl_invalid                  0x000023ce   Section        0  dunder.o(i.__mathlib_dbl_invalid)
-    i.__mathlib_dbl_underflow                0x000023e0   Section        0  dunder.o(i.__mathlib_dbl_underflow)
-    i.sin                                    0x000023f4   Section        0  sin.o(i.sin)
-    x$fpl$fadd                               0x00002490   Section      140  faddsub.o(x$fpl$fadd)
-    _fadd1                                   0x0000249d   Thumb Code     0  faddsub.o(x$fpl$fadd)
-    x$fpl$fmul                               0x0000251c   Section      176  fmul.o(x$fpl$fmul)
-    x$fpl$fsub                               0x000025cc   Section      208  faddsub.o(x$fpl$fsub)
-    _fsub1                                   0x000025d9   Thumb Code     0  faddsub.o(x$fpl$fsub)
-    fdiv_tab                                 0x0000269c   Data          64  fdiv.o(.constdata)
-    .constdata                               0x0000269c   Section       64  fdiv.o(.constdata)
-    x$fpl$usenofp                            0x0000269c   Section        0  usenofp.o(x$fpl$usenofp)
-    C                                        0x000026e0   Data          48  cos_i.o(.constdata)
-    .constdata                               0x000026e0   Section       48  cos_i.o(.constdata)
-    pio2s                                    0x00002710   Data          48  rred.o(.constdata)
-    .constdata                               0x00002710   Section      204  rred.o(.constdata)
-    twooverpi                                0x00002740   Data         156  rred.o(.constdata)
-    S                                        0x000027e0   Data          40  sin_i.o(.constdata)
-    .constdata                               0x000027e0   Section       40  sin_i.o(.constdata)
-    ddiv_reciptbl                            0x00002808   Data         128  ddiv.o(.constdata)
-    .constdata                               0x00002808   Section      128  ddiv.o(.constdata)
-    gUART_1ClockConfig                       0x00002888   Data           2  ti_msp_dl_config.o(.rodata.gUART_1ClockConfig)
-    [Anonymous Symbol]                       0x00002888   Section        0  ti_msp_dl_config.o(.rodata.gUART_1ClockConfig)
-    gUART_1Config                            0x0000288a   Data          10  ti_msp_dl_config.o(.rodata.gUART_1Config)
-    [Anonymous Symbol]                       0x0000288a   Section        0  ti_msp_dl_config.o(.rodata.gUART_1Config)
-    [Anonymous Symbol]                       0x00002894   Section        0  my_usart.o(.rodata.str1.1)
+    __arm_cp.3_0                             0x000018d8   Number         4  my_usart.o(.text.v_Draw_Curve)
+    __arm_cp.3_1                             0x000018dc   Number         4  my_usart.o(.text.v_Draw_Curve)
+    [Anonymous Symbol]                       0x000018e0   Section        0  my_usart.o(.text.v_Send_float)
+    __arm_cp.4_0                             0x00001b24   Number         4  my_usart.o(.text.v_Send_float)
+    __arm_cp.4_1                             0x00001b28   Number         4  my_usart.o(.text.v_Send_float)
+    __arm_cp.4_4                             0x00001b38   Number         4  my_usart.o(.text.v_Send_float)
+    .text_divfast                            0x00001b3c   Section      502  aeabi_sdivfast.o(.text_divfast)
+    i.__ARM_common_ll_muluu                  0x00001d32   Section        0  rred.o(i.__ARM_common_ll_muluu)
+    i.__ARM_fpclassify                       0x00001d64   Section        0  fpclassify.o(i.__ARM_fpclassify)
+    i.__ieee754_rem_pio2                     0x00001d90   Section        0  rred.o(i.__ieee754_rem_pio2)
+    i.__kernel_cos                           0x0000212c   Section        0  cos_i.o(i.__kernel_cos)
+    i.__kernel_poly                          0x00002220   Section        0  poly.o(i.__kernel_poly)
+    i.__kernel_sin                           0x000022cc   Section        0  sin_i.o(i.__kernel_sin)
+    i.__mathlib_dbl_infnan                   0x000023b8   Section        0  dunder.o(i.__mathlib_dbl_infnan)
+    i.__mathlib_dbl_invalid                  0x000023c2   Section        0  dunder.o(i.__mathlib_dbl_invalid)
+    i.__mathlib_dbl_underflow                0x000023d4   Section        0  dunder.o(i.__mathlib_dbl_underflow)
+    i.sin                                    0x000023e8   Section        0  sin.o(i.sin)
+    x$fpl$fadd                               0x00002484   Section      140  faddsub.o(x$fpl$fadd)
+    _fadd1                                   0x00002491   Thumb Code     0  faddsub.o(x$fpl$fadd)
+    x$fpl$fmul                               0x00002510   Section      176  fmul.o(x$fpl$fmul)
+    x$fpl$fsub                               0x000025c0   Section      208  faddsub.o(x$fpl$fsub)
+    _fsub1                                   0x000025cd   Thumb Code     0  faddsub.o(x$fpl$fsub)
+    fdiv_tab                                 0x00002690   Data          64  fdiv.o(.constdata)
+    .constdata                               0x00002690   Section       64  fdiv.o(.constdata)
+    x$fpl$usenofp                            0x00002690   Section        0  usenofp.o(x$fpl$usenofp)
+    C                                        0x000026d0   Data          48  cos_i.o(.constdata)
+    .constdata                               0x000026d0   Section       48  cos_i.o(.constdata)
+    pio2s                                    0x00002700   Data          48  rred.o(.constdata)
+    .constdata                               0x00002700   Section      204  rred.o(.constdata)
+    twooverpi                                0x00002730   Data         156  rred.o(.constdata)
+    S                                        0x000027d0   Data          40  sin_i.o(.constdata)
+    .constdata                               0x000027d0   Section       40  sin_i.o(.constdata)
+    ddiv_reciptbl                            0x000027f8   Data         128  ddiv.o(.constdata)
+    .constdata                               0x000027f8   Section      128  ddiv.o(.constdata)
+    gUART_1ClockConfig                       0x00002878   Data           2  ti_msp_dl_config.o(.rodata.gUART_1ClockConfig)
+    [Anonymous Symbol]                       0x00002878   Section        0  ti_msp_dl_config.o(.rodata.gUART_1ClockConfig)
+    gUART_1Config                            0x0000287a   Data          10  ti_msp_dl_config.o(.rodata.gUART_1Config)
+    [Anonymous Symbol]                       0x0000287a   Section        0  ti_msp_dl_config.o(.rodata.gUART_1Config)
+    [Anonymous Symbol]                       0x00002884   Section        0  my_usart.o(.rodata.str1.1)
     .bss                                     0x20200008   Section       96  libspace.o(.bss)
     Heap_Mem                                 0x20200070   Data           0  startup_mspm0g350x_uvision.o(HEAP)
     Stack_Mem                                0x20200070   Data         256  startup_mspm0g350x_uvision.o(STACK)
@@ -1937,10 +1937,13 @@ Image Symbol Table
     __rt_heap_escrow                         0x000003b3   Thumb Code     2  heapauxi.o(.text)
     __rt_heap_expand                         0x000003b5   Thumb Code     2  heapauxi.o(.text)
     __aeabi_d2f                              0x000003b9   Thumb Code     0  d2f.o(.text)
+    __truncdfsf2                             0x000003b9   Thumb Code     0  d2f.o(.text)
     _d2f                                     0x000003b9   Thumb Code   120  d2f.o(.text)
+    __adddf3                                 0x0000072d   Thumb Code     0  daddsub.o(.text)
     __aeabi_dadd                             0x0000072d   Thumb Code     0  daddsub.o(.text)
     _dadd                                    0x0000072d   Thumb Code    26  daddsub.o(.text)
     __aeabi_dsub                             0x00000747   Thumb Code     0  daddsub.o(.text)
+    __subdf3                                 0x00000747   Thumb Code     0  daddsub.o(.text)
     _dsub                                    0x00000747   Thumb Code    22  daddsub.o(.text)
     __aeabi_drsub                            0x0000075d   Thumb Code     0  daddsub.o(.text)
     _drsb                                    0x0000075d   Thumb Code    28  daddsub.o(.text)
@@ -1952,10 +1955,13 @@ Image Symbol Table
     __aeabi_ui2d                             0x0000084b   Thumb Code     6  dflti.o(.text)
     _dfltu                                   0x0000084b   Thumb Code     0  dflti.o(.text)
     __aeabi_dmul                             0x00000851   Thumb Code     0  dmul.o(.text)
+    __muldf3                                 0x00000851   Thumb Code     0  dmul.o(.text)
     _dmul                                    0x00000851   Thumb Code   558  dmul.o(.text)
     __aeabi_f2d                              0x00000a99   Thumb Code     0  f2d.o(.text)
+    __extendsfdf2                            0x00000a99   Thumb Code     0  f2d.o(.text)
     _f2d                                     0x00000a99   Thumb Code    80  f2d.o(.text)
     __aeabi_fdiv                             0x00000aed   Thumb Code     0  fdiv.o(.text)
+    __divsf3                                 0x00000aed   Thumb Code     0  fdiv.o(.text)
     _fdiv                                    0x00000aed   Thumb Code   334  fdiv.o(.text)
     _frdiv                                   0x00000c3b   Thumb Code     8  fdiv.o(.text)
     __aeabi_f2iz                             0x00000c4d   Thumb Code     0  ffixi.o(.text)
@@ -1971,6 +1977,7 @@ Image Symbol Table
     __errno$intlibspace                      0x00000d0d   Thumb Code     0  rt_errno_addr_intlibspace.o(.text)
     __rt_errno_addr$intlibspace              0x00000d0d   Thumb Code     0  rt_errno_addr_intlibspace.o(.text)
     __aeabi_ddiv                             0x00000d15   Thumb Code     0  ddiv.o(.text)
+    __divdf3                                 0x00000d15   Thumb Code     0  ddiv.o(.text)
     _ddiv                                    0x00000d15   Thumb Code  1072  ddiv.o(.text)
     _drdiv                                   0x00001145   Thumb Code    20  ddiv.o(.text)
     __ARM_scalbn                             0x0000115d   Thumb Code    84  dscalbn.o(.text)
@@ -1997,29 +2004,29 @@ Image Symbol Table
     delay_ms                                 0x000013f5   Thumb Code    68  board.o(.text.delay_ms)
     main                                     0x0000143d   Thumb Code   376  empty.o(.text.main)
     uart1_send_string                        0x000015f9   Thumb Code    52  board.o(.text.uart1_send_string)
-    v_Draw_Curve                             0x00001631   Thumb Code   692  my_usart.o(.text.v_Draw_Curve)
-    v_Send_float                             0x000018ed   Thumb Code   580  my_usart.o(.text.v_Send_float)
-    __aeabi_uidiv                            0x00001b49   Thumb Code    68  aeabi_sdivfast.o(.text_divfast)
-    __aeabi_idiv                             0x00001b8d   Thumb Code   434  aeabi_sdivfast.o(.text_divfast)
-    __ARM_common_ll_muluu                    0x00001d3f   Thumb Code    50  rred.o(i.__ARM_common_ll_muluu)
-    __ARM_fpclassify                         0x00001d71   Thumb Code    40  fpclassify.o(i.__ARM_fpclassify)
-    __ieee754_rem_pio2                       0x00001d9d   Thumb Code   838  rred.o(i.__ieee754_rem_pio2)
-    __kernel_cos                             0x00002139   Thumb Code   224  cos_i.o(i.__kernel_cos)
-    __kernel_poly                            0x0000222d   Thumb Code   172  poly.o(i.__kernel_poly)
-    __kernel_sin                             0x000022d9   Thumb Code   222  sin_i.o(i.__kernel_sin)
-    __mathlib_dbl_infnan                     0x000023c5   Thumb Code    10  dunder.o(i.__mathlib_dbl_infnan)
-    __mathlib_dbl_invalid                    0x000023cf   Thumb Code    16  dunder.o(i.__mathlib_dbl_invalid)
-    __mathlib_dbl_underflow                  0x000023e1   Thumb Code    14  dunder.o(i.__mathlib_dbl_underflow)
-    sin                                      0x000023f5   Thumb Code   146  sin.o(i.sin)
-    __aeabi_fadd                             0x00002491   Thumb Code     0  faddsub.o(x$fpl$fadd)
-    _fadd                                    0x00002491   Thumb Code   134  faddsub.o(x$fpl$fadd)
-    __aeabi_fmul                             0x0000251d   Thumb Code     0  fmul.o(x$fpl$fmul)
-    _fmul                                    0x0000251d   Thumb Code   172  fmul.o(x$fpl$fmul)
-    __aeabi_fsub                             0x000025cd   Thumb Code     0  faddsub.o(x$fpl$fsub)
-    _fsub                                    0x000025cd   Thumb Code   204  faddsub.o(x$fpl$fsub)
-    __I$use$fp                               0x0000269c   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Base                      0x000028a8   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x000028c8   Number         0  anon$$obj.o(Region$$Table)
+    v_Draw_Curve                             0x00001631   Thumb Code   680  my_usart.o(.text.v_Draw_Curve)
+    v_Send_float                             0x000018e1   Thumb Code   580  my_usart.o(.text.v_Send_float)
+    __aeabi_uidiv                            0x00001b3d   Thumb Code    68  aeabi_sdivfast.o(.text_divfast)
+    __aeabi_idiv                             0x00001b81   Thumb Code   434  aeabi_sdivfast.o(.text_divfast)
+    __ARM_common_ll_muluu                    0x00001d33   Thumb Code    50  rred.o(i.__ARM_common_ll_muluu)
+    __ARM_fpclassify                         0x00001d65   Thumb Code    40  fpclassify.o(i.__ARM_fpclassify)
+    __ieee754_rem_pio2                       0x00001d91   Thumb Code   838  rred.o(i.__ieee754_rem_pio2)
+    __kernel_cos                             0x0000212d   Thumb Code   224  cos_i.o(i.__kernel_cos)
+    __kernel_poly                            0x00002221   Thumb Code   172  poly.o(i.__kernel_poly)
+    __kernel_sin                             0x000022cd   Thumb Code   222  sin_i.o(i.__kernel_sin)
+    __mathlib_dbl_infnan                     0x000023b9   Thumb Code    10  dunder.o(i.__mathlib_dbl_infnan)
+    __mathlib_dbl_invalid                    0x000023c3   Thumb Code    16  dunder.o(i.__mathlib_dbl_invalid)
+    __mathlib_dbl_underflow                  0x000023d5   Thumb Code    14  dunder.o(i.__mathlib_dbl_underflow)
+    sin                                      0x000023e9   Thumb Code   146  sin.o(i.sin)
+    __aeabi_fadd                             0x00002485   Thumb Code     0  faddsub.o(x$fpl$fadd)
+    _fadd                                    0x00002485   Thumb Code   134  faddsub.o(x$fpl$fadd)
+    __aeabi_fmul                             0x00002511   Thumb Code     0  fmul.o(x$fpl$fmul)
+    _fmul                                    0x00002511   Thumb Code   172  fmul.o(x$fpl$fmul)
+    __aeabi_fsub                             0x000025c1   Thumb Code     0  faddsub.o(x$fpl$fsub)
+    _fsub                                    0x000025c1   Thumb Code   204  faddsub.o(x$fpl$fsub)
+    __I$use$fp                               0x00002690   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Base                      0x00002898   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000028b8   Number         0  anon$$obj.o(Region$$Table)
     flag                                     0x20200000   Data           1  empty.o(.data.flag)
     __libspace_start                         0x20200008   Data          96  libspace.o(.bss)
     __temporary_stack_top$libspace           0x20200068   Data           0  libspace.o(.bss)
@@ -2033,9 +2040,9 @@ Memory Map of the image
 
   Image Entry point : 0x000000c1
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000028d0, Max: 0x00020000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000028c0, Max: 0x00020000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000028c8, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000028b8, Max: 0x00020000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2130,47 +2137,46 @@ Memory Map of the image
     0x000013f4   0x000013f4   0x00000048   Code   RO           52    .text.delay_ms      board.o
     0x0000143c   0x0000143c   0x000001bc   Code   RO            2    .text.main          empty.o
     0x000015f8   0x000015f8   0x00000038   Code   RO           60    .text.uart1_send_string  board.o
-    0x00001630   0x00001630   0x000002bc   Code   RO           81    .text.v_Draw_Curve  my_usart.o
-    0x000018ec   0x000018ec   0x0000025c   Code   RO           83    .text.v_Send_float  my_usart.o
-    0x00001b48   0x00001b48   0x000001f6   Code   RO          824    .text_divfast       c_p.l(aeabi_sdivfast.o)
-    0x00001d3e   0x00001d3e   0x00000032   Code   RO          908    i.__ARM_common_ll_muluu  m_ps.l(rred.o)
-    0x00001d70   0x00001d70   0x0000002c   Code   RO          948    i.__ARM_fpclassify  m_ps.l(fpclassify.o)
-    0x00001d9c   0x00001d9c   0x0000039c   Code   RO          903    i.__ieee754_rem_pio2  m_ps.l(rred.o)
-    0x00002138   0x00002138   0x000000f4   Code   RO          886    i.__kernel_cos      m_ps.l(cos_i.o)
-    0x0000222c   0x0000222c   0x000000ac   Code   RO          950    i.__kernel_poly     m_ps.l(poly.o)
-    0x000022d8   0x000022d8   0x000000ec   Code   RO          910    i.__kernel_sin      m_ps.l(sin_i.o)
-    0x000023c4   0x000023c4   0x0000000a   Code   RO          890    i.__mathlib_dbl_infnan  m_ps.l(dunder.o)
-    0x000023ce   0x000023ce   0x00000010   Code   RO          892    i.__mathlib_dbl_invalid  m_ps.l(dunder.o)
-    0x000023de   0x000023de   0x00000002   PAD
-    0x000023e0   0x000023e0   0x00000014   Code   RO          895    i.__mathlib_dbl_underflow  m_ps.l(dunder.o)
-    0x000023f4   0x000023f4   0x0000009c   Code   RO          863    i.sin               m_ps.l(sin.o)
-    0x00002490   0x00002490   0x0000008c   Code   RO          847    x$fpl$fadd          fz_ps.l(faddsub.o)
-    0x0000251c   0x0000251c   0x000000b0   Code   RO          860    x$fpl$fmul          fz_ps.l(fmul.o)
-    0x000025cc   0x000025cc   0x000000d0   Code   RO          849    x$fpl$fsub          fz_ps.l(faddsub.o)
-    0x0000269c   0x0000269c   0x00000000   Code   RO          885    x$fpl$usenofp       fz_ps.l(usenofp.o)
-    0x0000269c   0x0000269c   0x00000040   Data   RO          854    .constdata          fz_ps.l(fdiv.o)
-    0x000026dc   0x000026dc   0x00000004   PAD
-    0x000026e0   0x000026e0   0x00000030   Data   RO          887    .constdata          m_ps.l(cos_i.o)
-    0x00002710   0x00002710   0x000000cc   Data   RO          905    .constdata          m_ps.l(rred.o)
-    0x000027dc   0x000027dc   0x00000004   PAD
-    0x000027e0   0x000027e0   0x00000028   Data   RO          911    .constdata          m_ps.l(sin_i.o)
-    0x00002808   0x00002808   0x00000080   Data   RO          944    .constdata          fz_ps.l(ddiv.o)
-    0x00002888   0x00002888   0x00000002   Data   RO           38    .rodata.gUART_1ClockConfig  ti_msp_dl_config.o
-    0x0000288a   0x0000288a   0x0000000a   Data   RO           39    .rodata.gUART_1Config  ti_msp_dl_config.o
-    0x00002894   0x00002894   0x00000011   Data   RO           85    .rodata.str1.1      my_usart.o
-    0x000028a5   0x000028a5   0x00000003   PAD
-    0x000028a8   0x000028a8   0x00000020   Data   RO         1260    Region$$Table       anon$$obj.o
+    0x00001630   0x00001630   0x000002b0   Code   RO           81    .text.v_Draw_Curve  my_usart.o
+    0x000018e0   0x000018e0   0x0000025c   Code   RO           83    .text.v_Send_float  my_usart.o
+    0x00001b3c   0x00001b3c   0x000001f6   Code   RO          824    .text_divfast       c_p.l(aeabi_sdivfast.o)
+    0x00001d32   0x00001d32   0x00000032   Code   RO          908    i.__ARM_common_ll_muluu  m_ps.l(rred.o)
+    0x00001d64   0x00001d64   0x0000002c   Code   RO          948    i.__ARM_fpclassify  m_ps.l(fpclassify.o)
+    0x00001d90   0x00001d90   0x0000039c   Code   RO          903    i.__ieee754_rem_pio2  m_ps.l(rred.o)
+    0x0000212c   0x0000212c   0x000000f4   Code   RO          886    i.__kernel_cos      m_ps.l(cos_i.o)
+    0x00002220   0x00002220   0x000000ac   Code   RO          950    i.__kernel_poly     m_ps.l(poly.o)
+    0x000022cc   0x000022cc   0x000000ec   Code   RO          910    i.__kernel_sin      m_ps.l(sin_i.o)
+    0x000023b8   0x000023b8   0x0000000a   Code   RO          890    i.__mathlib_dbl_infnan  m_ps.l(dunder.o)
+    0x000023c2   0x000023c2   0x00000010   Code   RO          892    i.__mathlib_dbl_invalid  m_ps.l(dunder.o)
+    0x000023d2   0x000023d2   0x00000002   PAD
+    0x000023d4   0x000023d4   0x00000014   Code   RO          895    i.__mathlib_dbl_underflow  m_ps.l(dunder.o)
+    0x000023e8   0x000023e8   0x0000009c   Code   RO          863    i.sin               m_ps.l(sin.o)
+    0x00002484   0x00002484   0x0000008c   Code   RO          847    x$fpl$fadd          fz_ps.l(faddsub.o)
+    0x00002510   0x00002510   0x000000b0   Code   RO          860    x$fpl$fmul          fz_ps.l(fmul.o)
+    0x000025c0   0x000025c0   0x000000d0   Code   RO          849    x$fpl$fsub          fz_ps.l(faddsub.o)
+    0x00002690   0x00002690   0x00000000   Code   RO          885    x$fpl$usenofp       fz_ps.l(usenofp.o)
+    0x00002690   0x00002690   0x00000040   Data   RO          854    .constdata          fz_ps.l(fdiv.o)
+    0x000026d0   0x000026d0   0x00000030   Data   RO          887    .constdata          m_ps.l(cos_i.o)
+    0x00002700   0x00002700   0x000000cc   Data   RO          905    .constdata          m_ps.l(rred.o)
+    0x000027cc   0x000027cc   0x00000004   PAD
+    0x000027d0   0x000027d0   0x00000028   Data   RO          911    .constdata          m_ps.l(sin_i.o)
+    0x000027f8   0x000027f8   0x00000080   Data   RO          944    .constdata          fz_ps.l(ddiv.o)
+    0x00002878   0x00002878   0x00000002   Data   RO           38    .rodata.gUART_1ClockConfig  ti_msp_dl_config.o
+    0x0000287a   0x0000287a   0x0000000a   Data   RO           39    .rodata.gUART_1Config  ti_msp_dl_config.o
+    0x00002884   0x00002884   0x00000011   Data   RO           85    .rodata.str1.1      my_usart.o
+    0x00002895   0x00002895   0x00000003   PAD
+    0x00002898   0x00002898   0x00000020   Data   RO         1260    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM2 (Exec base: 0x20200000, Load base: 0x000028c8, Size: 0x00000170, Max: 0x00008000, ABSOLUTE)
+    Execution Region RW_IRAM2 (Exec base: 0x20200000, Load base: 0x000028b8, Size: 0x00000170, Max: 0x00008000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20200000   0x000028c8   0x00000001   Data   RW            6    .data.flag          empty.o
-    0x20200001   0x000028c9   0x00000007   PAD
+    0x20200000   0x000028b8   0x00000001   Data   RW            6    .data.flag          empty.o
+    0x20200001   0x000028b9   0x00000007   PAD
     0x20200008        -       0x00000060   Zero   RW          960    .bss                c_p.l(libspace.o)
     0x20200068        -       0x00000004   Zero   RW            7    .bss.cnt            empty.o
-    0x2020006c   0x000028c9   0x00000004   PAD
+    0x2020006c   0x000028b9   0x00000004   PAD
     0x20200070        -       0x00000000   Zero   RW           17    HEAP                startup_mspm0g350x_uvision.o
     0x20200070        -       0x00000100   Zero   RW           16    STACK               startup_mspm0g350x_uvision.o
 
@@ -2198,16 +2204,16 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       140         12          0          0          0       7071   board.o
-        10          0          0          0          0        577   dl_common.o
-        90          8          0          0          0      14508   dl_uart.o
-       476         72          0          1          4       1410   empty.o
-      1304         32         17          0          0       9216   my_usart.o
-        44         18        192          0        256        680   startup_mspm0g350x_uvision.o
-       320         72         12          0          0      20289   ti_msp_dl_config.o
+       140         12          0          0          0       7112   board.o
+        10          0          0          0          0        594   dl_common.o
+        90          8          0          0          0      14532   dl_uart.o
+       476         72          0          1          4       1427   empty.o
+      1292         32         17          0          0       9112   my_usart.o
+        44         18        192          0        256        700   startup_mspm0g350x_uvision.o
+       320         72         12          0          0      20342   ti_msp_dl_config.o
 
     ----------------------------------------------------------------------
-      2388        214        256          4        268      53751   Object Totals
+      2376        214        256          4        268      53819   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          3          3          8          0   (incl. Padding)
 
@@ -2261,8 +2267,8 @@ Image component sizes
        236         14         40          0          0        100   sin_i.o
 
     ----------------------------------------------------------------------
-      7304        294        492          0         96       2992   Library Totals
-        22          4          8          0          0          0   (incl. Padding)
+      7304        294        488          0         96       2992   Library Totals
+        22          4          4          0          0          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2273,7 +2279,7 @@ Image component sizes
       1872        140        292          0          0        836   m_ps.l
 
     ----------------------------------------------------------------------
-      7304        294        492          0         96       2992   Library Totals
+      7304        294        488          0         96       2992   Library Totals
 
     ----------------------------------------------------------------------
 
@@ -2282,15 +2288,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      9692        508        748          4        364      55339   Grand Totals
-      9692        508        748          4        364      55339   ELF Image Totals
-      9692        508        748          4          0          0   ROM Totals
+      9680        508        744          4        364      55407   Grand Totals
+      9680        508        744          4        364      55407   ELF Image Totals
+      9680        508        744          4          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                10440 (  10.20kB)
+    Total RO  Size (Code + RO Data)                10424 (  10.18kB)
     Total RW  Size (RW Data + ZI Data)               368 (   0.36kB)
-    Total ROM Size (Code + RO Data + RW Data)      10444 (  10.20kB)
+    Total ROM Size (Code + RO Data + RW Data)      10428 (  10.18kB)
 
 ==============================================================================
 
