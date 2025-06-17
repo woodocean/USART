@@ -22,8 +22,5 @@ void delay_1us(unsigned long __us);
 void delay_1ms(unsigned long ms);
 
 
-void uart1_send_char(char ch);
-void uart1_send_string(char* str);
-
 
 #endif
