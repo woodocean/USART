@@ -1,6 +1,6 @@
 Dependencies for Project 'empty_LP_MSPM0G3507_nortos_keil', Target 'empty_LP_MSPM0G3507_nortos_keil': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
-F (../empty.c)(0x684C2A26)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/empty.o -MMD)
+F (../empty.c)(0x68517DC6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/empty.o -MMD)
 I (..\ti_msp_dl_config.h)(0x68270C63)
 I (..\..\..\..\..\source\ti\devices\msp\msp.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\devices\DeviceFamily.h)(0x66D136B8)
@@ -75,11 +75,11 @@ I (..\..\..\..\..\source\ti\driverlib\dl_vref.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\dl_wwdt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66D136B8)
-I (..\board.h)(0x68270CA1)
-I (..\keil\My_USART.h)(0x67DAD55F)
+I (..\board.h)(0x6851712C)
+I (..\keil\My_USART.h)(0x68517A19)
 I (..\..\..\..\TJC_03_draw_time\board.h)(0x67D19866)
 F (../empty.syscfg)(0x68270C40)()
-F (startup_mspm0g350x_uvision.s)(0x66D136B9)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"__MSPM0G3507__ SETA 1"-o ./objects/startup_mspm0g350x_uvision.o)
+F (startup_mspm0g350x_uvision.s)(0x685171FE)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"__MSPM0G3507__ SETA 1"-o ./objects/startup_mspm0g350x_uvision.o)
 F (../ti_msp_dl_config.h)(0x68270C63)()
 F (../ti_msp_dl_config.c)(0x68270C63)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ti_msp_dl_config.o -MMD)
 I (..\ti_msp_dl_config.h)(0x68270C63)
@@ -156,8 +156,8 @@ I (..\..\..\..\..\source\ti\driverlib\dl_vref.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\dl_wwdt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66D136B8)
-F (..\board.c)(0x68270CA1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/board.o -MMD)
-I (..\board.h)(0x68270CA1)
+F (..\board.c)(0x68517137)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/board.o -MMD)
+I (..\board.h)(0x6851712C)
 I (..\ti_msp_dl_config.h)(0x68270C63)
 I (..\..\..\..\..\source\ti\devices\msp\msp.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\devices\DeviceFamily.h)(0x66D136B8)
@@ -232,9 +232,9 @@ I (..\..\..\..\..\source\ti\driverlib\dl_vref.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\dl_wwdt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66D136B8)
-F (..\board.h)(0x68270CA1)()
-F (.\My_USART.c)(0x67DAD7D2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/my_usart.o -MMD)
-I (My_USART.h)(0x67DAD55F)
+F (..\board.h)(0x6851712C)()
+F (.\My_USART.c)(0x68517DE0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/my_usart.o -MMD)
+I (My_USART.h)(0x68517A19)
 I (..\..\..\..\TJC_03_draw_time\board.h)(0x67D19866)
 I (..\..\..\..\TJC_03_draw_time\ti_msp_dl_config.h)(0x6820A468)
 I (..\..\..\..\..\source\ti\devices\msp\msp.h)(0x66D136B8)
@@ -310,7 +310,7 @@ I (..\..\..\..\..\source\ti\driverlib\dl_vref.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\dl_wwdt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66D136B8)
-F (.\My_USART.h)(0x67DAD55F)()
+F (.\My_USART.h)(0x68517A19)()
 F (..\ti\dl_adc12.c)(0x66D136B8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../../../source/third_party/CMSIS/Core/Include -I ../../../../../source -I ../keil -I ../../../../TJC_03_draw_time-D__UVISION_VERSION="541" -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_adc12.o -MMD)
 I (..\..\..\..\..\source\ti\driverlib\dl_adc12.h)(0x66D136B8)
 I (..\..\..\..\..\source\ti\devices\msp\msp.h)(0x66D136B8)
