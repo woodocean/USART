@@ -71,5 +71,5 @@
   ..\..\..\..\..\source\ti\driverlib\dl_vref.h \
   ..\..\..\..\..\source\ti\driverlib\dl_wwdt.h \
   ..\..\..\..\..\source\ti\driverlib\m0p\dl_interrupt.h \
-  ..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h ..\board.h \
-  ..\keil\My_USART.h ..\..\..\..\TJC_03_draw_time\board.h
+  ..\..\..\..\..\source\ti\driverlib\m0p\dl_systick.h ..\keil\My_USART.h \
+  ..\..\..\..\TJC_03_draw_time\ti_msp_dl_config.h

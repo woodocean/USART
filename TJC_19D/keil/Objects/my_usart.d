@@ -1,5 +1,4 @@
 ./objects/my_usart.o: My_USART.c My_USART.h \
-  ..\..\..\..\TJC_03_draw_time\board.h \
   ..\..\..\..\TJC_03_draw_time\ti_msp_dl_config.h \
   ..\..\..\..\..\source\ti\devices\msp\msp.h \
   ..\..\..\..\..\source\ti\devices\DeviceFamily.h \
