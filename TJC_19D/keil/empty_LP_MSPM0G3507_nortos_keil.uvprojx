@@ -410,16 +410,6 @@
               <FilePath>../ti_msp_dl_config.c</FilePath>
             </File>
             <File>
-              <FileName>board.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\board.c</FilePath>
-            </File>
-            <File>
-              <FileName>board.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\board.h</FilePath>
-            </File>
-            <File>
               <FileName>My_USART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\My_USART.c</FilePath>

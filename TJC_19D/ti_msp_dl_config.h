@@ -80,7 +80,7 @@ extern "C" {
 
 /* Defines for UART_1 */
 #define UART_1_INST                                                        UART1
-#define UART_1_INST_FREQUENCY                                            4000000
+#define UART_1_INST_FREQUENCY                                           32000000
 #define UART_1_INST_IRQHandler                                  UART1_IRQHandler
 #define UART_1_INST_INT_IRQN                                      UART1_INT_IRQn
 #define GPIO_UART_1_RX_PORT                                                GPIOA
@@ -91,9 +91,9 @@ extern "C" {
 #define GPIO_UART_1_IOMUX_TX                                     (IOMUX_PINCM39)
 #define GPIO_UART_1_IOMUX_RX_FUNC                      IOMUX_PINCM40_PF_UART1_RX
 #define GPIO_UART_1_IOMUX_TX_FUNC                      IOMUX_PINCM39_PF_UART1_TX
-#define UART_1_BAUD_RATE                                                 (38400)
-#define UART_1_IBRD_4_MHZ_38400_BAUD                                         (6)
-#define UART_1_FBRD_4_MHZ_38400_BAUD                                        (33)
+#define UART_1_BAUD_RATE                                                (115200)
+#define UART_1_IBRD_32_MHZ_115200_BAUD                                      (17)
+#define UART_1_FBRD_32_MHZ_115200_BAUD                                      (23)
 
 
 

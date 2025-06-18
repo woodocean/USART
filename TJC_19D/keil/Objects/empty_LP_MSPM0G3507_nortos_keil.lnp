@@ -2,7 +2,6 @@
 ".\objects\empty.o"
 ".\objects\startup_mspm0g350x_uvision.o"
 ".\objects\ti_msp_dl_config.o"
-".\objects\board.o"
 ".\objects\my_usart.o"
 ".\objects\dl_adc12.o"
 ".\objects\dl_aes.o"
